@@ -1,0 +1,65 @@
+project:
+  type: website
+
+website:
+  title: "MADA Course"
+  navbar:
+    background: dark
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://code.com
+    left:
+      - text: "Modern Applied Data Analysis"
+        file: index.qmd
+  page-navigation: true
+  sidebar:
+    collapse-level: 1 
+    style: "docked"
+    contents:
+      - section: "GENERAL INFORMATION"
+        contents:
+          - text: SYLLABUS
+          - text: SCHEDULE
+          - text: COMUUNICATION
+          - text: ASSESSMENTS
+          #- href: Assessments.qmd
+      - text: "---"
+      - section: "MODULES"
+        contents:
+          - href: projects.qmd
+          - text: 2.DATA ANALYSIS INTRODUCTION
+          - text: 3.CODING BASICS
+          - text: 4.COMTEMPLATING, FIDING AND WRNGLIND DATA
+          - text: 5.VISUALIZATION
+          - text: 6.DATA EXPLORATION
+          - text: 7.STATISTICAL ANALYSIS OVERVIEW
+          - text: 8.FITTING BASIC STATISTICAL MODELS     
+          - text: 9.EVALUATING YOUR MODEL FITS
+          - text: 10.IMPROVING YOUR MODEL FITS
+          - text: 11.MACHINE LEARNING MODELS I
+          - text: 12.MACHINE LEARNING MODELS II
+          - text: 13.THE COMPLETE ANALYSIS WORKFLOW
+          - text: 14.DEEP LEARNING,AI AND BIG DATA
+      - section: "PROJECT"
+        contents:
+          - text: PROJECT OVERVIEW
+          - text: PROJECT DETAILS
+          - text: PROJECT REVIEW
+          - text: PROJECT EXAMPLES 
+          
+      - section: "RESOURCES"
+        contents:
+          - text: COURSE RESOURCES
+          - text: GENERAL RESOURCES
+          - text: GLOSSARY
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
